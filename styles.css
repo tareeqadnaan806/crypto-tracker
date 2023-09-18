@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+nav {
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 2rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-btn {
+  height: 30px;
+  border-radius: 10px;
+  background-color: bisque;
+  font-size: larger;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  text-decoration: none;
+  color: rgb(11, 55, 94);
+}
+
+.logo a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  color: rgb(73, 73, 5);
+  font-weight: 600;
+}
+
+.btn {
+  width: 20%;
+}
+
+.nav-btn {
+  border-radius: 0;
+  background-color: aqua;
+  font-size: larger;
+  margin-right: 1rem;
+  border: 0;
+  border-radius: 5px;
+  height: 30px;
+  cursor: pointer;
+  width: 30%;
+}
+
+.main-display {
+  height: 60vh;
+  width: 100%;
+}
+
+.top-coins {
+  height: 20vh;
+  width: 100%;
+}
+
+footer {
+  height: 7.7vh;
+  width: 100%;
+  text-align: center;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  background-color: rgb(145, 145, 145);
+  justify-content: center;
+  color: aliceblue;
+  position: fixed;
+  bottom: 0;
+}
+
+.left-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 50vw;
+}
+
+.left-content h1 {
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.left-content p {
+  font-size: 20px;
+}
+
+.main-display {
+  display: flex;
+}
+
+.right-content img {
+  width: 50vw;
+  height: 100%;
+  padding: 20px;
+}
+
+.top-coins h1 {
+  text-align: center;
+  margin: 1rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.coins-list {
+  width: 18%;
+  height: 50px;
+  margin: 1rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(148, 213, 213);
+  box-shadow: 3px 3px grey;
+  cursor: pointer;
+}
+
+.coins {
+  display: flex;
+  margin: 1rem;
+}
+
+.coins-list img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+nav {
+  width: 100%;
+  background-color: rgb(174, 203, 228);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns {
+  width: 30%;
+}
+
+.nav-btns {
+  width: 25%;
+}
+
+.coin-search {
+  height: 22.1vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,168,233,0.726015406162465) 100%);
+}
+
+.display-coins {
+  height: 60vh;
+  width: 100%;
+}
+
+.coin-search input {
+  width: 40ch;
+  height: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: larger;
+}
+
+.coin-search h1 {
+  color: rgb(85, 164, 16);
+}
+
+.coin-search button {
+  height: 30px;
+  background-color: blueviolet;
+  color: aliceblue;
+  border-radius: 10px;
+  font-size: large;
+  cursor: pointer;
+  padding: 0 1rem;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+padding-top: 20px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px grey;
+  border: 2px solid grey;
+  font-weight: 700;
+  width: 60%;
+  margin-bottom: 15px;
+  background-color: rgb(90, 149, 180) ;
+}
+
+
+hr{
+  width:60%;
+  margin-bottom: 20px;
+}
+
+span {
+  padding: 10px 10%;
+}
+
+.name {
+  width: 30%;
+}
+
+.price {
+  width: 20%;
+  margin-right: 10%;
+}
+
+
+.info-btn{
+  background-color: brown;
+  padding: .5rem 1rem;
+  color: aliceblue;
+  border-radius: 10px;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.names{
+  width: 50%;
+  margin: 5%;
+}
+
+#root h1{
+  margin: 1.5%;
+}
+
+.coins-details{
+  margin: 2rem;
+}
+
+#coins-details{
+  display: flex;
+  border-bottom: 2px solid grey;
+}
+
+.coins-details .left img{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 2rem;
+}
+
+.coins-details .right p{
+  margin: 2rem;
+}
+
+.coins-details .left h1{
+  text-align: center;
+}
+
+.details{
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  line-height: 150%;
+  color: rgb(125, 90, 157);
+  border: 2px solid grey;
+  padding: 20px;
+  border-radius: 0 20px 0 20px;
+  box-shadow: 3px 3px green;
+}
+
+.details .left{
+  width: 30%;
+}
+.details .middle{
+  width: 30%;
+}
+.details .right{
+  width: 30%;
+}
